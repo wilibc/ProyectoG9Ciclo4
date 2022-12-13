@@ -16,7 +16,7 @@ exports.add=async(req,res)=>{
     try{
         await deport.save()
         res.json({
-            message:"Nuevo deporte adicionado"
+            message:"Nuevo deporte agregado"
         })
     }catch(error){
         console.log(error)
